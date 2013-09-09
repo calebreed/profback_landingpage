@@ -1,0 +1,79 @@
+.bgimg {
+      /*  background-image: url('../images/riggs_georgetown.jpg'); */
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+
+.image-wrapper{
+    max-width:100%;
+    height:auto;
+    position: relative;
+    display:block;
+    margin:0 auto;
+}
+.image-wrapper img{
+    max-width:100% !important;
+    height:auto;
+    display:block;
+}
+
+/*h2 {
+    position: absolute;
+    top: 200px;
+    left:50px;
+    width: 100%;
+}
+
+h2 span {
+    bottom: 20px;
+    font-family: 'museo sans';
+    font-size: 150%;
+    color: #fff;
+    padding: 0 20px;
+    width: 40%;
+    line-height: 150%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.herotext span {
+    position: absolute;
+    bottom: 20px;
+    font-family: 'museo_slab500';
+    font-size: 150%;
+    color: #fff;
+    padding: 0 20px;
+    width: 40%;
+    line-height: 150%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+} */
+
+.textbox {
+    position: absolute;
+    top: 200px;
+    left:50px;
+    right: 50px;
+    width: 100%;
+    max-width: 500px;
+  padding: 50px 50px 50px 50px;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  font-family: 'museo sans';
+    font-size: 150%;
+    color: #fff;
+  /*font-size: 18px;
+  font-weight: 200;*/
+  line-height: 30px;
+  /*color: inherit;*/
+  background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 0px;
+}
+
+h2 span.spacer {
+   padding:0 5px;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "profback_landingpage",
+  "description": "profback_landingpage",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x",
+    "ejs": ">= 0.0.0",
+    "socket.io": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": ">= 0.0.0",
+    "passport-google-oauth": ">= 0.0.0",
+    "ejs-locals": "~1.0.2"
+  }
+}

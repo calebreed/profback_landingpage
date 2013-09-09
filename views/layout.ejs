@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+    <head>
+        <title>Profback</title>
+        <link rel='stylesheet' href='stylesheets/bootstrap.css'>
+        <link rel='stylesheet' href='stylesheets/bootstrap-responsive.css'>
+        <script src='js/bootstrap.js'></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+        <body>
+            <% if (!user) { %>
+                        
+            <div class="navbar navbar-inverse">
+              <div class="navbar-inner">
+                <a class="brand" href="#">Profback</a>
+                <ul class="nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="/">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <% } else { %>
+                <p>
+                <a href="/">Home</a> |
+                <a href="/account">Account</a> |
+                <a href="/logout">Log Out</a>
+                </p>
+            <% } %>
+        <%-body -%>
+        </body>
+</html>
