@@ -473,15 +473,29 @@ section#services .span3:hover {
 /* Testimonials */
 
 section#testimonials {
+	width: 100%;
+	background: url(../img/professor_classroom_fitted_v2.png) #0b333f no-repeat center center fixed;
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	-o-background-size: cover !important;
+	background-size: cover !important;
+	;
+	min-height: 600px;
+	margin-top: -60px;
+	padding-top:160px;
+	text-align:center;
+}
+
+/*section#testimonials {
 	height:  647px;
-	background: url("../img/professor_classroom_fitted.png") #0b333f no-repeat center center fixed;
+	background: url("../img/professor_classroom_fitted_v2.png") #0b333f no-repeat center center fixed;
 	padding: 0;
 	color: #e4e5e2;
 	z-index: 500;
 	box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
 	-moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
 	-webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
-
+*/
 /*	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;

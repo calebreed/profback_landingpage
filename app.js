@@ -3,17 +3,13 @@ var http = require("http");
 var express = require('express');
 var app = express();
 var server = http.createServer(app);
-//var engine = require('ejs-locals');
+var engine = require('ejs-locals');
 server.listen(process.env.PORT);
-
-require("./routes")(app);
-
-
 
 
 app.configure(function(){
   app.set('views', __dirname + '/views');
-  //app.set('view engine', 'ejs');
+  app.set('view engine', 'ejs');
   app.use(express.cookieParser());
   app.use(express.bodyParser());
   app.use(express.methodOverride());
@@ -26,7 +22,12 @@ app.configure(function(){
   app.use("/images", express.static(__dirname + '/images'));
 });
 
-//app.engine('ejs', engine);
+app.engine('ejs', engine);
+
+require("./routes")(app);
+require("./nodemailer")(app);
+
+
 
 
 
